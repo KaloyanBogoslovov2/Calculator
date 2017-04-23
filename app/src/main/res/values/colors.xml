@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#212121</color>
+    <color name="colorPrimaryDark">@android:color/black</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="numbers">#BDBDBD</color>
+    <color name="functions">#616161</color>
+    <color name="calculate">#01579B</color>
+</resources>

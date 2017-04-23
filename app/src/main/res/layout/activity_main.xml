@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kaloqn.calculator.MainActivity"
+    android:padding="16dp"
+    android:background="@color/colorPrimary"
+    android:weightSum="6"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"
+        android:id="@+id/calculator_screen"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        style="@style/horizontalLinearLayout">
+
+        <Button
+            android:text="@string/sqrt"
+            android:id="@+id/sqrt"
+            style="@style/functionButton"/>
+        <Button
+            android:text="@string/divide"
+            android:id="@+id/divide"
+            style="@style/functionButton"/>
+        <Button
+            android:text="@string/multiply"
+            android:id="@+id/multiply"
+            style="@style/functionButton"/>
+        <Button
+            android:text="@string/clear"
+            android:id="@+id/clear"
+            style="@style/functionButton"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/horizontalLinearLayout">
+
+        <Button
+            android:text="@string/seven"
+            android:id="@+id/seven"
+            style="@style/numberButton"/>
+        <Button
+            android:text="@string/eight"
+            android:id="@+id/eight"
+            style="@style/numberButton"/>
+        <Button
+            android:text="@string/nine"
+            android:id="@+id/nine"
+            style="@style/numberButton" />
+        <Button
+            android:text="@string/minus"
+            android:id="@+id/minus"
+            style="@style/functionButton"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/horizontalLinearLayout">
+
+        <Button
+            android:text="@string/four"
+            android:id="@+id/four"
+            style="@style/numberButton"/>
+        <Button
+            android:text="@string/five"
+            android:id="@+id/five"
+            style="@style/numberButton"/>
+        <Button
+            android:text="@string/six"
+            android:id="@+id/six"
+            style="@style/numberButton"/>
+        <Button
+            android:text="@string/plus"
+            android:id="@+id/plus"
+            style="@style/functionButton"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/horizontalLinearLayout">
+
+        <Button
+            android:text="@string/one"
+            android:id="@+id/one"
+            style="@style/numberButton"/>
+        <Button
+            android:text="@string/two"
+            android:id="@+id/two"
+            style="@style/numberButton"/>
+        <Button
+            android:text="@string/three"
+            android:id="@+id/three"
+            style="@style/numberButton"/>
+        <Button
+            android:text="@string/point"
+            android:id="@+id/point"
+            style="@style/functionButton"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/horizontalLinearLayout">
+
+        <Button
+            android:text="@string/zero"
+            android:id="@+id/zero"
+            style="@style/numberButton"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/calculate"
+            android:id="@+id/calculate"
+            android:textSize="22sp"
+            android:textColor="@android:color/white"
+            android:layout_margin="4dp"
+            android:background="@color/calculate"/>
+
+    </LinearLayout>
+
+</LinearLayout>
